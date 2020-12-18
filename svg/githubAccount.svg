@@ -1,0 +1,19 @@
+<svg id="a9c0f805-9521-4fde-98e4-84769856198e" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 747.871 133.775">
+  <defs>
+    <style>
+      .a3f11b93-3577-4da4-9ea5-0c6f584084a8 {
+        opacity: 0.97;
+        font-size: 35px;
+        font-family: BernardMT-Condensed, Bernard MT Condensed;
+        letter-spacing: 0.2em;
+      }
+
+      .ad09dbc9-562a-47fa-b362-32ed6dbafb37 {
+        fill: #d7be69;
+        letter-spacing: 0.2em;
+      }
+    </style>
+  </defs>
+  <title>githubAccount</title>
+  <text class="a3f11b93-3577-4da4-9ea5-0c6f584084a8" transform="translate(80.39 31.29)">Check out my <a href="https://github.com/johnpaulmaja" target="_blank"><tspan class="ad09dbc9-562a-47fa-b362-32ed6dbafb37" x="262.623" y="0" xml:space="preserve"> Github  </tspan></a><tspan x="424.718" y="0">account!</tspan></text>
+</svg>

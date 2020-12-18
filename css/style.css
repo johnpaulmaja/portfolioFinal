@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1920px;
+    height: 7000px;
+    background-color: #D3D3D3;
+}
+
+.coverIntroduction{
+    width: 1000px;
+    position: absolute;
+    top: 280px;
+    right: 450px;
+  }
+
+  .bird {
+    background-image: url(../svg/bird.svg);
+    background-size: auto 100%;
+    width: 88px;
+    height: 125px;
+    will-change: background-position;
+            animation-name: fly-cycle;
+            animation-timing-function: steps(10);
+            animation-iteration-count: infinite;
+  }
+  .bird--one {
+            animation-duration: 1s;
+            animation-delay: -0.5s;
+  }
+  .bird--two {
+            animation-duration: 0.9s;
+            animation-delay: -0.75s;
+  }
+  .bird--three {
+            animation-duration: 1.25s;
+            animation-delay: -0.25s;
+  }
+  .bird--four {
+            animation-duration: 1.1s;
+            animation-delay: -0.5s;
+  }
+  .bird-container {
+    position: absolute;
+    top: 20%;
+    left: -10%;
+            transform: scale(0) translateX(-10vw);
+    will-change: transform;
+            animation-name: fly-right-one;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+  }
+  .bird-container--one {
+            animation-duration: 15s;
+            animation-delay: 0;
+  }
+  .bird-container--two {
+            animation-duration: 16s;
+            animation-delay: 1s;
+  }
+  .bird-container--three {
+            animation-duration: 14.6s;
+            animation-delay: 9.5s;
+  }
+  .bird-container--four {
+            animation-duration: 16s;
+            animation-delay: 10.25s;
+  }  
+  @keyframes fly-cycle {
+    100% {
+      background-position: -900px 0;
+    }
+  }
+  @keyframes fly-right-one {
+    0% {
+              transform: scale(0.3) translateX(-10vw);
+    }
+    10% {
+              transform: translateY(2vh) translateX(10vw) scale(0.4);
+    }
+    20% {
+              transform: translateY(0vh) translateX(30vw) scale(0.5);
+    }
+    30% {
+              transform: translateY(4vh) translateX(50vw) scale(0.6);
+    }
+    40% {
+              transform: translateY(2vh) translateX(70vw) scale(0.6);
+    }
+    50% {
+              transform: translateY(0vh) translateX(90vw) scale(0.6);
+    }
+    60% {
+              transform: translateY(0vh) translateX(110vw) scale(0.6);
+    }
+    100% {
+              transform: translateY(0vh) translateX(110vw) scale(0.6);
+    }
+  }
+  @keyframes fly-right-two {
+    0% {
+              transform: translateY(-2vh) translateX(-10vw) scale(0.5);
+    }
+    10% {
+              transform: translateY(0vh) translateX(10vw) scale(0.4);
+    }
+    20% {
+              transform: translateY(-4vh) translateX(30vw) scale(0.6);
+    }
+    30% {
+              transform: translateY(1vh) translateX(50vw) scale(0.45);
+    }
+    40% {
+              transform: translateY(-2.5vh) translateX(70vw) scale(0.5);
+    }
+    50% {
+              transform: translateY(0vh) translateX(90vw) scale(0.45);
+    }
+    51% {
+              transform: translateY(0vh) translateX(110vw) scale(0.45);
+    }
+    100% {
+              transform: translateY(0vh) translateX(110vw) scale(0.45);
+    }
+  }
+
+.Highlights{
+    width: 1000px;
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+}
+.line1{
+  width: 500px;
+  display: block;
+  margin: auto;
+}
+
+.viennDiagram{
+    width: 500px;
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+}
+.chasingWithTheDesire{
+    width: 1000px;
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+}
+.works{
+  width: 1000px;
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.article-title {
+    background-color: #D3D3D3;
+    color: #000000;
+    padding-top: 15px;
+    font-size: 35px;
+    text-align: center;
+    
+}
+
+.article-content{
+    margin-top: -0.5px;
+    margin-right: 50px;
+    border-bottom: 1px solid #D3D3D3;
+    border-left: 1px solid #D3D3D3;
+    border-right: 1px solid #D3D3D3;
+    background-color: #D3D3D3;
+    text-align: center;
+}
+.article-content li{
+    list-style-type: none;
+    color: #000000;
+}
+.article-description {
+    color: #000000;
+    padding-top: 15px;
+    font-size: 30px;
+    text-align: center;
+}
+.whole-article{
+  display:block;
+  margin: auto;
+  border: 1px solid #D3D3D3;
+  margin-bottom: 50px;
+  background-color: #D3D3D3;
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  padding: 10px;
+  text-align: center;
+  width: 1000px;
+}
+.contact-image {
+    margin: 0 auto;
+    width: 1200px;
+    height: 500px;
+    object-fit: contain;
+    box-shadow: 10px 10px 5px black;
+}
+.whole-article button{
+  width: 300px;
+  display:block;
+  margin: auto;
+}
+
+.githubAccount{
+  width: 1000px;
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+}
+.contactme{
+  width: 1500px;
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+}
+.lineart1{
+  width: 700px;
+  position: absolute ;
+  top: 1400px;
+  left: -100px;
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+}
+.lineart2{
+  width: 500px;
+  position: absolute ;
+  top: 2300px;
+  right: 10px;
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+}
+.lineart3{
+  width: 500px;
+  position: absolute ;
+  top: 3200px;
+  left: 10px;
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+}
+.lineart4{
+  width: 300px;
+  position: absolute ;
+  top: 4100px;
+  right: 10px;
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+}
+.lineart5{
+  width: 500px;
+  position: absolute ;
+  top: 5000px;
+  left: 10px;
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+}
