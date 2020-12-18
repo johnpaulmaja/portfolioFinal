@@ -11,14 +11,6 @@ body{
     height: 100%;
     background-color: #D3D3D3;
 }
-
-.coverIntroduction{
-    width: 1000px;
-    position: absolute;
-    left: 500px;
-    top: 300px;
-  }
-
   .bird {
     background-image: url(../svg/bird.svg);
     background-size: auto 100%;
@@ -128,36 +120,40 @@ body{
               transform: translateY(0vh) translateX(110vw) scale(0.45);
     }
   }
-
-.Highlights{
-    width: 1000px;
+.cover{
+    width: 120%;
     display: block;
     margin: auto;
-    margin-top: 100px;
+}
+.Highlights{
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 1%;
 }
 .line1{
-  width: 500px;
+  width: 25%;
   display: block;
   margin: auto;
 }
 
 .viennDiagram{
-    width: 500px;
+    width: 25%;
     display: block;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 1%;
 }
 .chasingWithTheDesire{
-    width: 1000px;
+    width: 50%;
     display: block;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 1%;
 }
 .works{
-  width: 1000px;
+  width: 50%;
   display: block;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 1%;
 }
 
 .article-title {
@@ -198,7 +194,7 @@ body{
   grid-template-rows: auto auto auto auto;
   padding: 10px;
   text-align: center;
-  width: 1000px;
+  width: 50%;
 }
 .contact-image {
     margin: 0 auto;
@@ -214,59 +210,63 @@ body{
 }
 
 .githubAccount{
-  width: 1000px;
+  width: 50%;
   display: block;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 1%;
 }
 .contactme{
-  width: 1500px;
+  width: 75%;
   display: block;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 1%;
 }
+.coverIntroduction{
+  width: 50%;
+  position: absolute;
+  left: 25%;
+  top: 35%;
+}
+
 .lineart1{
-  width: 700px;
-  position: absolute ;
-  top: 1400px;
-  left: -100px;
-  display: block;
-  margin: auto;
-  margin-top: 100px;
+  width: 37%;
+  position: absolute;
+  top: 180%;
+  left: -1%;
 }
 .lineart2{
-  width: 500px;
+  width: 27%;
   position: absolute ;
-  top: 2300px;
-  right: 10px;
+  top: 260%;
+  right: -1%;
   display: block;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 1%;
 }
 .lineart3{
-  width: 500px;
+  width: 27%;
   position: absolute ;
-  top: 3200px;
-  left: 10px;
+  top: 340%;
+  left: -1%;
   display: block;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 1%;
 }
 .lineart4{
-  width: 300px;
+  width: 20%;
   position: absolute ;
-  top: 4100px;
-  right: 10px;
+  top: 420%;
+  right: -1%;
   display: block;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 1%;
 }
 .lineart5{
-  width: 500px;
+  width: 27%;
   position: absolute ;
-  top: 5000px;
-  left: 10px;
+  top: 500%;
+  left: -1%;
   display: block;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 1%;
 }
