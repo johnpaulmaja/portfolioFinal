@@ -5,10 +5,11 @@
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <div>
-            <object data-aos="fade-up" type="image/svg+xml" data="svg/BlackMountainVector.svg" class="cover"></object>
+            <object type="image/svg+xml" data="svg/BlackMountainVector.svg" class="cover"></object>
             <object data-aos="fade-up" data="svg/imjohnpaulmaja.svg" class="coverIntroduction"></object>
 
                 <div><!-- birb -->
