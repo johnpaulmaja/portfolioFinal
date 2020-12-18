@@ -714,7 +714,7 @@
             <object data-aos="fade-right" data="svg/lineart3.svg" class="lineart3"></object>
             <object data-aos="fade-left" data="svg/lineart4.svg" class="lineart4"></object>
             <object data-aos="fade-right" data="svg/lineart5.svg" class="lineart5"></object>
-
+            <a href="https://github.com/johnpaulmaja/portfolioFinal" target="_blank"> Github link of this portfolio right here! </a>
 
         </div>
     </body>
